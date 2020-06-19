@@ -17,7 +17,8 @@ Education
 * B.S. in Statistics, University of California - Los Angeles, 2018
 * B.A. in Economics, University of California - Los Angeles, 2018
 
-**Technical Skills**
+Technical Skills
+======
 
 |  |  |
 |:--------| ------- |
@@ -27,21 +28,27 @@ Education
 | **Statistical Methods**           | Data Mining, Linear Models, Regression, Hypothesis Testing and Confidence Intervals, Principal Component Analysis and Dimensionality Reduction |
 | **Design and typesetting**        | LaTeX, Markdown, WordPress, Adobe InDesign|
 
+Relevant Coursework
+======
 
+- Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Data Engineering, Pattern Recognition, Probability, Analysis, Computational Statistics, Cognitive Modeling, Macro & Microeconomic Theory, Econometrics, Game Theory, Firm Organization, Experimental Design, Behavioral Economics
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Amazon, Applied Scientist Intern -- Summer 2019
+  * Developed a natural language processing knowledge extraction product that allows users to obtain an easily digestible summary of hundreds of thousands of associate and informational documents, providing key topics, named entities, sentiments and question answering.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
+* Amenity Analytics, Data Scientist -- Oct. 2018 - April 2019
+  * Worked within Text.AI team to develop natural language processing and machine learning models using company’s proprietary software on unstructured financial text documents to extract key insights and deliverables.
   
-Service and leadership
+* Spot.IM, Data Scientist Intern -- Summer 2017
+  * Built and designed a churn rate algorithm to instantaneously detect when customers would disable the product, allowing the business operations team to reach out and bring back customers that churned.
+  
+Selected Projects
 ======
-* Currently signed in to 43 different slack teams
+* *NYU Capstone: Fashion Market Segmentation and Analysis with Trendalytics* (Python, Google Adwords)
+* *Data Science: Text Classification with SMS Messages* (Python)
+* *Big Data: Music Recommendation System* (PySpark)
+* *Computer Vision: Least Square GANs*
+* *Dashboard: COVID-19 Analysis* (Dash)
+
