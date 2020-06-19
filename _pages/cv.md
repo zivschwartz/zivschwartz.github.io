@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[PDF version of my resume here](zivschwartz.github.io/files/Resume.pdf)
+
 Education
 ======
 * B.S. in GitHub, GitHub University, 2012
