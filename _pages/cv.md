@@ -13,9 +13,20 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Data Science, New York University, 2020
+* B.S. in Statistics, University of California - Los Angeles, 2018
+* B.A. in Economics, University of California - Los Angeles, 2018
+
+## Skills and qualifications
+
+|  |  |
+|:--------| ------- |
+| **Programming Languages**         | Python, R, SQL, Stata, Tableau, LaTeX, Git, Microsoft Excel                  |
+| **Big Data Tools**                | SQL, Hadoop, Spark, Beam, MapReduce, Tensorflow Extended, AWS SageMaker, S3, EC2 
+| **Machine Learning**              | Natural Language Processing, Regression, Classification, Feature Engineering, Clustering           |
+| **Statistical Methods**           | Data Mining, Linear Models, Regression, Hypothesis Testing and Confidence Intervals, Principal Component Analysis and Dimensionality Reduction |
+| **Design and typesetting**        | LaTeX, Markdown, WordPress, Adobe InDesign|
+
 
 Work experience
 ======
