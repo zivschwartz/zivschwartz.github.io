@@ -17,15 +17,16 @@ Education
 * B.S. in Statistics, University of California - Los Angeles, 2018
 * B.A. in Economics, University of California - Los Angeles, 2018
 
-## Skills and qualifications
+**Technical Skills**
 
 |  |  |
 |:--------| ------- |
-| **Programming Languages**         | Python, R, SQL, Stata, Tableau, LaTeX, Git, Microsoft Excel                  |
-| **Big Data Tools**                | SQL, Hadoop, Spark, Beam, MapReduce, Tensorflow Extended, AWS SageMaker, S3, EC2 
-| **Machine Learning**              | Natural Language Processing, Regression, Classification, Feature Engineering, Clustering           |
+| **Programming Languages**         | Python, R, SQL, Stata, Tableau, LaTeX, Git, Microsoft Excel |
+| **Big Data Tools**                | SQL, Hadoop, Spark, Beam, MapReduce, Tensorflow Extended, AWS SageMaker, S3, EC2 |
+| **Machine Learning**              | Natural Language Processing, Deep Learning, Computer Vision, Regression, Classification, Feature Engineering, Clustering |
 | **Statistical Methods**           | Data Mining, Linear Models, Regression, Hypothesis Testing and Confidence Intervals, Principal Component Analysis and Dimensionality Reduction |
 | **Design and typesetting**        | LaTeX, Markdown, WordPress, Adobe InDesign|
+
 
 
 Work experience
