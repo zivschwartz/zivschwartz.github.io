@@ -35,13 +35,13 @@ Relevant Coursework
 
 Work experience
 ======
-* Amazon, Applied Scientist Intern -- Summer 2019
+* **Amazon**, Applied Scientist Intern -- Summer 2019
   * Developed a natural language processing knowledge extraction product that allows users to obtain an easily digestible summary of hundreds of thousands of associate and informational documents, providing key topics, named entities, sentiments and question answering.
 
-* Amenity Analytics, Data Scientist -- Oct. 2018 - April 2019
+* **Amenity Analytics**, Data Scientist -- Oct. 2018 - April 2019
   * Worked within Text.AI team to develop natural language processing and machine learning models using company’s proprietary software on unstructured financial text documents to extract key insights and deliverables.
   
-* Spot.IM, Data Scientist Intern -- Summer 2017
+* **Spot.IM**, Data Scientist Intern -- Summer 2017
   * Built and designed a churn rate algorithm to instantaneously detect when customers would disable the product, allowing the business operations team to reach out and bring back customers that churned.
   
 Selected Projects
