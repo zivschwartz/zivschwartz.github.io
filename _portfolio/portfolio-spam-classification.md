@@ -1,7 +1,7 @@
 ---
 title: "Spam Classification on SMS Messages"
 date: 2018-12-08
-excerpt: "Performing 'spam' or 'ham text classification on SMS messages.<br/><img src='/images/SpamPhone.png' style='width:295px;height:254px;'>"
+excerpt: "Performing 'spam' or 'ham text classification on SMS messages.<br/><img src='/images/SpamPhone.png' style='width:395px;height:254px;'>"
 collection: portfolio
 ---
 
@@ -11,7 +11,9 @@ For our assignment, we analyzed SMS text messages to classify them as ‘spam’
 
 Our report can be found [here](https://github.com/zivschwartz/SpamClassification/blob/master/WhosInMyDMs-Final_Report.pdf), and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/SpamClassification).
 
-**Methods**: Logistic Regression, Random Forest, and an LSTM Neural Network. For each of these models, we performed feature extraction using sparse vectoratization techniques, CountVectorizer and TfidfVectorizer, as well as utilizing bigrams, n-grams and word embeddings to test against a dense vector representation.
+**Methods** 
+
+Logistic Regression, Random Forest, and an LSTM Neural Network. For each of these models, we performed feature extraction using sparse vectoratization techniques, CountVectorizer and TfidfVectorizer, as well as utilizing bigrams, n-grams and word embeddings to test against a dense vector representation.
 
 <p align="center">
   <img width="485.5" height="381" src="/images/SpamLR.png">
@@ -27,6 +29,6 @@ Using the custom word embeddings model, we decided to extract the particular wor
  - going and just, similarity = 0.8183.
  
  <p align="center">
-  <img width="442.5" height="381" src="/images/SpamWords.png">
+  <img width="381" height="381" src="/images/SpamWords.png">
 </p>
 
