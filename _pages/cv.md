@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[resume](zivschwartz.github.io/files/Resume.pdf)
+
 [PDF version of my resume here](zivschwartz.github.io/files/Resume.pdf)
 
 Education
