@@ -9,7 +9,7 @@ collection: portfolio
 
 For our assignment, we analyzed SMS text messages to classify them as ‘spam’ or ‘ham’. As online communication has adapted and shifted from email to various forms of direct messaging, phishers have adjusted where and how they target individuals with spam. Users want to know that their accounts and data are secure, and they do not have time to be bothered by receiving spam messages.
 
-Our report can be found [here](https://github.com/zivschwartz/SpamClassification/blob/master/WhosInMyDMs-Final_Report.pdf), and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/SpamClassification).
+Report can be found [here](https://github.com/zivschwartz/SpamClassification/blob/master/WhosInMyDMs-Final_Report.pdf), and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/SpamClassification).
 
 **Methods** 
 
