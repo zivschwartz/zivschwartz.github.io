@@ -1,34 +1,43 @@
 ---
 title: "Comparing and Contrasting the Content of US Presidential Inaugural Addresses and UK Political Party Manifestos from World War II to Present Day"
 date: 2020-05-08
-excerpt: "PThe purpose of this paper is to compare and contrast how prominent political figures and parties from the United States and the United Kingdom use official addresses and mani- festos. This paper will focus on the content of presidential inaugural addresses from the United States and political manifestos from the United Kingdom’s two largest parties: the Conservative and Labour Parties.<br/><img src='/images/SpamPhone.png' style='width:395px;height:254px;'>"
+excerpt: "The purpose of this paper is to compare and contrast how prominent political figures and parties from the United States and the United Kingdom use official addresses and manifestos.<br/><img src='/images/TADEntropy.png' style='width:395px;height:254px;'>"
 collection: portfolio
 ---
 
 ## Summary
 
-For our assignment, we analyzed SMS text messages to classify them as ‘spam’ or ‘ham’. As online communication has adapted and shifted from email to various forms of direct messaging, phishers have adjusted where and how they target individuals with spam. Users want to know that their accounts and data are secure, and they do not have time to be bothered by receiving spam messages.
+The purpose of this paper is to compare and contrast how prominent political figures and parties from the United States and the United Kingdom use official addresses and manifestos. The goal of this analysis will be to elucidate if historical and political circumstances impact these documents. Different metrics will be used to help understand how these official documents have adapted over time and how leaders and governments from two prominent world leaders compare. The analysis will focus on documents dating back to the end of World War II all the way through to the present day. Analysis done in R Studio.
 
-Our report can be found [here](https://github.com/zivschwartz/SpamClassification/blob/master/WhosInMyDMs-Final_Report.pdf), and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/SpamClassification).
+Report can be found [here](https://github.com/zivschwartz/Inaugural_Address_vs_Manifestos/blob/master/TAD_Project.pdf), and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/Inaugural_Address_vs_Manifestos/blob/master/Project.Rmd).
 
-**Methods** 
+**Data and Methods** 
 
-Logistic Regression, Random Forest, and an LSTM Neural Network. For each of these models, we performed feature extraction using sparse vectoratization techniques, CountVectorizer and TfidfVectorizer, as well as utilizing bigrams, n-grams and word embeddings to test against a dense vector representation.
+The data used in this paper is readily available in Quanteda. The following quantitative metrics are performed: Document Feature Length, Entropy, Type-to-Token Ratio (TTR), Moving Average Type-to-Token Ratio (MATTR), Yule's Characteristic K, and Cosine Similarity.
 
 <p align="center">
-  <img width="485.5" height="381" src="/images/SpamLR.png">
+  <img width="485.5" height="381" src="/images/TADLength.png">
 </p>
 
-Logistic Regression seemed to perform the best, when used with the n-gram TF-IDF vectorization. It seems that the custom embeddings were not trained on enough data and possibly overfit, so that set of feature engineering did not seem so useful. The random forests models also seemed to overfit slightly, but the performance was comparable to the logistic regression. The LSTM classifier overfit completely.
-
-**Word Embeddings and Visizualizations**
-
-Using the custom word embeddings model, we decided to extract the particular word embeddings and visualize them to see which words are similar. To get the embedding vectors, we utilized the default CountVectorizer with its built-in English Stop Words to build a vocabulary set. Another interesting aspect to analyze is to look at a more formal definition of word similarity. Taking a sample of the first 1000 word entities, spaCy has a built-in similarity method that can give a value, between 0 and 1, for the similarity between two words. Having a similarity of over 0.5 would imply that the two words are in fact similar. However, it is important to remember that similarity to humans can be a highly subjective topic and spaCy’s similarity model utilizes a rather standard similarity definition. The word pairs with highest similarity from the first 1000 word sample are:
- - cash and money, similarity = 0.8191
- - win and won, similarity=0.8187
- - going and just, similarity = 0.8183
+The first major distinction is noting that the political manifestos are much longer than inaugural addresses. Each document serves a different purpose in the political world. Inaugural addresses are meant to present a concise vision for a president’s administration and goals for the country. Thus a shorter length is expected as they are read aloud to the entire country. On the other hand, the manifestos are focused on attracting voters, therefore requiring a deeper dive into policies and platforms for the party. 
  
  <p align="center">
-  <img width="330" height="330" src="/images/SpamWords.png">
+  <img width="330" height="330" src="/images/TADEntropy.png">
 </p>
+
+The next metric used is entropy, a measure that holds the ability to give a reading on how much information is present in a document. The inaugural addresses from 1945 to 2017 have an entropy that hovers around 9 whereas the party manifestos have greater entropy, reaching a peak in 1979 of right around 11 and generally between 10 and 11. This again follows the expectation of the assumptions that underlie the differences in the documents.
+
+ <p align="center">
+  <img width="330" height="330" src="/images/TADLexComp.png">
+</p>
+
+Following this, the lexical complexity of each document is calculated using three different metrics: TTR, MATTR, and Yule’s Characteristic K. The simplest and most common metric for vocabulary richness is TTR, which calculates the ratio of unique words over total words in a document. Looking at Yule’s Characteristic K, it seems that UK manifestos decrease in lexical complexity over time, yet inaugural addresses do not follow the same trend, with peaks in 1953 and 2005.
+
+ <p align="center">
+  <img width="330" height="330" src="/images/TADSimilarity.png">
+</p>
+
+Finally, a similarity metric is used to see how closely inaugural addresses relate to either the conservative or labour manifestos. From the table, 75% of the addresses have a higher cosine similarity to the Conservative Party manifestos. The hypothesis presented earlier speculates that republican presidents would be expected to have a higher similarity to Con- servative Party manifestos and democratic presidents would have a higher similarity to the Labour Party manifestos, however this is not generally the case. 
+
+
 
