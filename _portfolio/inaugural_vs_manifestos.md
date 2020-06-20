@@ -13,7 +13,7 @@ Report can be found [here](https://github.com/zivschwartz/Inaugural_Address_vs_M
 
 **Data and Methods** 
 
-The data used in this paper is readily available in Quanteda. The following quantitative metrics are performed: Document Feature Length, Entropy, Type-to-Token Ratio (TTR), Moving Average Type-to-Token Ratio (MATTR), Yule's Characteristic K, and Cosine Similarity.
+The data used in this paper is readily available in Quanteda. The following quantitative metrics are performed in order to get a better textual understanding of the documents: Document Feature Length, Entropy, Type-to-Token Ratio (TTR), Moving Average Type-to-Token Ratio (MATTR), Yule's Characteristic K, and Cosine Similarity.
 
 <p align="center">
   <img width="485.5" height="381" src="/images/TADLength.png">
