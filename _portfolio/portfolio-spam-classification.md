@@ -14,7 +14,7 @@ Our report can be found [here](https://github.com/zivschwartz/SpamClassification
 **Methods**: Logistic Regression, Random Forest, and an LSTM Neural Network. For each of these models, we performed feature extraction using sparse vectoratization techniques, CountVectorizer and TfidfVectorizer, as well as utilizing bigrams, n-grams and word embeddings to test against a dense vector representation.
 
 <p align="center">
-  <img width="442.5" height="381" src="/images/SpamLR.png">
+  <img width="485.5" height="381" src="/images/SpamLR.png">
 </p>
 
 Logistic Regression seemed to perform the best, when used with the n-gram TF-IDF vectorization. It seems that the custom embeddings were not trained on enough data and possibly overfit, so that set of feature engineering did not seem so useful. The random forests models also seemed to overfit slightly, but the performance was comparable to the logistic regression. The LSTM classifier overfit completely.
