@@ -1,7 +1,7 @@
 ---
 title: "Spam Classification on SMS Messages"
 date: 2018-12-08
-excerpt: "Performing 'spam' or 'ham text classification on SMS messages.<br/><img src='/images/SpamPhone.png' style='width:395px;height:254px;'>"
+excerpt: "Performing 'spam' or 'ham' text classification on SMS messages.<br/><img src='/images/SpamPhone.png' style='width:395px;height:254px;'>"
 collection: portfolio
 ---
 
