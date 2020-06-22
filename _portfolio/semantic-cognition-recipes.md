@@ -1,6 +1,6 @@
 ---
 title: "Semantic Cognition on Recipes and Cuisines Around the World"
-date: 2019-12-17
+date: 2019-05-13
 excerpt: "The parallel distributed processing approach to semantic cognition: a comparative extension to a complex domain.<br/><img src='/images/SemanticNet.png' style='width:395px;height:254px;'>"
 collection: portfolio
 ---
