@@ -1,6 +1,6 @@
 ---
 title: "Recommender System for User Listening Data"
-date: 2018-12-19
+date: 2019-05-18
 excerpt: "Building and evaluating a recommender system using PySpark for user listening data via collaborative filtering and alternating least squares (ALS).<br/><img src='/images/RSFiltering.png' style='width:395px;height:180px;'>"
 collection: portfolio
 ---
