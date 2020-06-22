@@ -9,7 +9,7 @@ collection: portfolio
 
 For our assignment, we are interested in trying to predict the type of play that will be called on third down in a given NFL game. Third down conversions are one of the key metrics that can measure a team’s success and win probability.
 
-Report can be found [here](https://github.com/zivschwartz/Coronavirus_Analysis/blob/master/group01_report.pdf, slides [here](https://github.com/zivschwartz/Coronavirus_Analysis/blob/master/group01_presentation.pdf) and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/Coronavirus_Analysis).
+Report can be found [here](https://github.com/zivschwartz/Coronavirus_Analysis/blob/master/group01_report.pdf), slides [here](https://github.com/zivschwartz/Coronavirus_Analysis/blob/master/group01_presentation.pdf) and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/Coronavirus_Analysis).
 
 **Data and Methods** 
 
@@ -27,7 +27,7 @@ The dashboard layout is as follows:
 4. Hypothesized stock index
 
 <p align="center">
-  <video src="/images/group01_results_sm.mov" width="320" height="200" controls preload></video>
+  <video src="/images/group01_results_sm.mov" width="350" height="350" controls preload></video>
 </p>
 
 To launch the application:
