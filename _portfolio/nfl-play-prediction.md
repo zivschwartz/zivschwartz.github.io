@@ -33,5 +33,5 @@ Another big advantage of Random Forests is that they naturally allow us to rank 
 
 While the Two Minute Warning binary variable does not make a big difference, both running and passing moving averages, add information to the model. 
 
-the confusion matrix is concentrated mostly along the diagonal, as the model has a 84.21% accuracy, a 87.83% precision and a 92.21% recall. By further exploring the available features, it is possible the model could be improved. However, the fact that we are achieving these metrics on an unbalanced class after reducing the features by 90%, speaks to the power of using Random Forests for this particular problem.
+The confusion matrix is concentrated mostly along the diagonal, as the model has a 84.21% accuracy, a 87.83% precision and a 92.21% recall. By further exploring the available features, it is possible the model could be improved. However, the fact that we are achieving these metrics on an unbalanced class after reducing the features by 90%, speaks to the power of using Random Forests for this particular problem.
 
