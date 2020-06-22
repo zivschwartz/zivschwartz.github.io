@@ -27,7 +27,7 @@ The dashboard layout is as follows:
 4. Hypothesized stock index
 
 <p align="center">
-  <video src="/images/group01_results_sm.mov" width="350" height="350" controls preload></video>
+  <video src="/images/group01_results_sm.mov" width="550" height="350" controls preload></video>
 </p>
 
 To launch the application:
