@@ -1,6 +1,6 @@
 ---
 title: "Visualizing the Spread & Effects of COVID-19 Around the World"
-date: 2018-12-19
+date: 2020-05-11
 excerpt: "Building a reporting dashboard to display the effects of COVID-19 globally.<br/><img src='/images/COVIDdash.png' style='width:395px;height:254px;'>"
 collection: portfolio
 ---
