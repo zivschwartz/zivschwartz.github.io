@@ -7,16 +7,14 @@ collection: portfolio
 
 ## Summary
 
-For our assignment, we are interested in trying to predict the type of play that will be called on third down in a given NFL game. Third down conversions are one of the key metrics that can measure a team’s success and win probability.
-
-Report can be found [here](https://github.com/zivschwartz/Coronavirus_Analysis/blob/master/group01_report.pdf), slides [here](https://github.com/zivschwartz/Coronavirus_Analysis/blob/master/group01_presentation.pdf) and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/Coronavirus_Analysis).
-
-**Data and Methods** 
-
 Amidst the COVID-19 pandemic, we found common interest in applying advanced python methods to build a visualization dashboard that investigates its effects. We choose three particular areas of interest:
 1. Economic effects (measured by relative change in stock price based on each company’s range from November 2019 to January 2020)
 2. Social effects (measured by volume of Twitter activity per day per geography)
 3. Public health effects (measured by total fatalities per day per geography).
+
+Report can be found [here](https://github.com/zivschwartz/Coronavirus_Analysis/blob/master/group01_report.pdf), slides [here](https://github.com/zivschwartz/Coronavirus_Analysis/blob/master/group01_presentation.pdf) and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/Coronavirus_Analysis).
+
+**Data and Methods** 
 
 Wanting to present the data in a cohesive manner, we use Python’s plotly visualization package with dash, which together enable us to produce a single sub-plotted visualization with a universal slider to provide a dynamic time series view of daily change. Given the scale and limitations of some of our data and collection capacities (e.g., Twitter's API call restrictions forced us to seek other data sourcing), we gather data from January 21st onward, a reasonable negotiation given the timeline of the global spread of COVID-19 which escalated mostly after mid-January.
 
