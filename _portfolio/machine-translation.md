@@ -1,6 +1,6 @@
 ---
 title: "A Deep Dive into Machine Translation"
-date: 2018-12-19
+date: 2018-12-20
 excerpt: "End-to-end implementation and training of neural translation machine models.<br/><img src='/images/MTarch.png' style='width:395px;height:200px;'>"
 collection: portfolio
 ---
