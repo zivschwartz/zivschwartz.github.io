@@ -1,7 +1,7 @@
 ---
 title: "Predicting Object Bounding Boxes and Road Map Layouts in a Traffic Environment"
 date: 2020-05-12
-excerpt: "Predicting bounding box representations of objects and roadmap layouts given a real-time traffic environment.<br/><img src='/images/DLstitch.png' style='width:395px;height:180px;'>"
+excerpt: "Predicting bounding box representations of objects and roadmap layouts given a real-time traffic environment.<br/><img src='/images/DLstitch.png' style='width:300px;height:395px;'>"
 collection: portfolio
 ---
 
