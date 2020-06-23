@@ -1,7 +1,7 @@
 ---
 title: "Bag of N-Gram Document Classification"
 date: 2018-10-10
-excerpt: "Bag of words document classification using IMDB large movie review dataset.<br/><img src='/images/BOWeval.png' style='width:500px;height:180px;'>"
+excerpt: "Bag of words document classification using IMDB large movie review dataset.<br/><img src='/images/BOWeval.png' style='width:500px;height:130px;'>"
 collection: portfolio
 ---
 
