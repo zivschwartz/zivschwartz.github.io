@@ -1,7 +1,7 @@
 ---
 title: "LSGAN Image Generation"
 date: 2019-12-17
-excerpt: "Least squares generative adverserial networks (LSGANs) for image generation.<br/><img src='/images/LSGANarch.png' style='width:395px;height:254px;'>"
+excerpt: "Least squares generative adverserial networks (LSGANs) for image generation.<br/><img src='/images/LSGANarch.png' style='width:395px;height:180px;'>"
 collection: portfolio
 ---
 
