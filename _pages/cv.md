@@ -33,7 +33,7 @@ Relevant Coursework
 
 - Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Data Engineering, Pattern Recognition, Probability, Analysis, Computational Statistics, Cognitive Modeling, Macro & Microeconomic Theory, Econometrics, Game Theory, Firm Organization, Experimental Design, Behavioral Economics
 
-Work experience
+Work Experience
 ======
 * **Amazon**, Applied Scientist Intern -- Summer 2019
   * Developed a natural language processing knowledge extraction product that allows users to obtain an easily digestible summary of hundreds of thousands of associate and informational documents, providing key topics, named entities, sentiments and question answering.
