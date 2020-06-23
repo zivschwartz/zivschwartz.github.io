@@ -19,7 +19,7 @@ The computational design of this network includes an encoding process; input ite
   <img width="485.5" height="381" src="/images/SemanticNet.png">
 </p>
 
-Initial data is obtained from [What's Cooking](https://www.kaggle.com/c/whats-cooking) and consists of 39, 774 common recipes belonging to 20 distinct cuisines. We then proceeded to add the following binary (yes or no) labels:
+Initial data is obtained from [What's Cooking](https://www.kaggle.com/c/whats-cooking) and consists of 39,774 common recipes belonging to 20 distinct cuisines. We then proceeded to add the following binary (yes or no) labels:
 - Vegeterain, Vegan, Spicy, Dessert, Drink
 
 The data is preprocessed to group together similar ingredients found in the cousine (red and green peppers --> bell peppers) and to retain distinctness in other cases (black pepper remains the same).  
