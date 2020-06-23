@@ -9,7 +9,7 @@ collection: portfolio
 
 Machine translation is the problem of, given an input sequence in a source language, outputting a translation in the target sentence. We implement our models on two sets of language translation: Vietnamese to English and Chinese to English.
 
-Both sets of translations, Chinese to English and Vietnamese to English, were provided with a set of prepared corpora. The neural translation systems for the two language pairings we cover in this paper are
+Both sets of translations, Chinese to English and Vietnamese to English, were provided with a set of prepared corpora. The neural translation systems for the two language pairings we cover in this paper are:
 1. Recurrent neural network based encoderdecoder without attention (Vanilla Encoder Decoder) 
 2. Recurrent neural network based encoder decoder with global attention 
 3. Self-attention based encoder. 
