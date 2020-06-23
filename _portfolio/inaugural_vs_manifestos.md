@@ -1,7 +1,7 @@
 ---
 title: "Comparing and Contrasting the Content of US Presidential Inaugural Addresses and UK Political Party Manifestos from World War II to Present Day"
 date: 2020-05-08
-excerpt: "The purpose of this paper is to compare and contrast how prominent political figures and parties from the United States and the United Kingdom use official addresses and manifestos.<br/><img src='/images/TADEntropy.png' style='width:395px;height:254px;'>"
+excerpt: "Examining the difference in how prominent political figures and parties from the United States and the United Kingdom use official addresses and manifestos.<br/><img src='/images/TADEntropy.png' style='width:395px;height:254px;'>"
 collection: portfolio
 ---
 
