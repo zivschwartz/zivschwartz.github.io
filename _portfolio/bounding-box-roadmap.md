@@ -9,7 +9,7 @@ collection: portfolio
 
 In today’s everchanging technological eras, one of the most exciting and hotly-debated advancements is that of self-driving cars. While the realization of such a futuristic piece of technology requires the coordination of many talents, from engineers to software developers to com- puter vision experts, the fundamental first step, as with any problem, is how best to represent the world around you. In this paper, we apply a pre-processing step of stitching together six 360 degree images intro a single representation, then apply the YOLOv3 architecture for the task of object detection of nearby cars, trucks, and other vehicles. Our architecture transforms this into the two-dimensional road map representation, wherein additional autonomous decision-making would be applied to determine what best action the vehicle should take. For the road map prediction task, our model develops an average representation methodology based on labeled road images from the given dataset.
 
-Report can be found [here](https://github.com/zivschwartz/LSGAN-Computer-Vision-Implementation/blob/master/LSGAN_Image_Generation.pdf), poster [here](https://github.com/zivschwartz/LSGAN-Computer-Vision-Implementation/blob/master/Computer%20Vision%20Poster.pdf) and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/LSGAN-Computer-Vision-Implementation).
+Report can be found [here](https://github.com/zivschwartz/Bounding-Box-Roadmap/blob/master/%5B52%5D%20-%20%5BAlfs%20Angels%5D%20-%20Report.pdf), slides [here](https://github.com/zivschwartz/Bounding-Box-Roadmap/blob/master/Slides.pdf) and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/Bounding-Box-Roadmap).
 
 **Data and Methods** 
 
