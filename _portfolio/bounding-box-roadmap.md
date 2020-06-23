@@ -1,7 +1,7 @@
 ---
 title: "Predicting Object Bounding Boxes and Road Map Layouts in a Traffic Environment"
 date: 2020-05-12
-excerpt: "Predicting bounding box representations of objects and roadmap layouts given a real-time traffic environment.<br/><img src='/images/DLstitch.png' style='width:300px;height:395px;'>"
+excerpt: "Predicting bounding box representations of objects and roadmap layouts given a real-time traffic environment.<br/><img src='/images/DLoriginal.png' style='width:395px;height:254px;'>"
 collection: portfolio
 ---
 
@@ -22,7 +22,7 @@ The data used for this project consists of labeled and unlabeled scenes taken fr
 We considered different representations, including passing each image separately, a flat left-to-right (256x306*6) stitching, and flipping the back three images upside-down and placing them underneath the front three images. However, these representations were not the correct way to represent the image we were concerned with outputting. We believed that if our inputs could as closely as possible resemble a two-dimensional top-down representation, that would work the best in predicting the bounding boxes. To accomplish this, the sides were combined in the following order right (front back), forward behind, and left (front back). The front images are assembled on the left and the back images on the right. The front images are all rotated 90 degrees counterclockwise while the back images are all rotated 90 degrees clockwise.
 
 <p align="center">
-  <img width="485.5" height="381" src="/images/DLstitch.png">
+  <img width="425.5" height="381" src="/images/DLstitch.png">
 </p>
 
 We used the YOLOv3 architecture for the bounding box task. It uses a variant of Darknet-53 as its feature extractor and comprises a total of 106 convolutional layers. The object detection is performed at three different scales. For our purposes, these three scales were determined by down-sampling the dimensions of the input image by 32, 16 and 8. Finally, it takes the generated bounding boxes and applies non-maximum suppression to group boxes together. As discussed earlier, the images were stitched together to get the objects as close to their position in a top-down view as possible. The annotations were also transformed to the format expected by the model, i.e. for each box, we passed the coordinates of the center of the box (assuming the bottom left corner to be the origin) and the width and height of the box. We also passed the specific object category to our labels so that our model could learn to identify the type of object in addition to being able to better determine the size of the corresponding bounding box. Currently our model can only draw boxes parallel to the axes and this can be explored as a next step.
