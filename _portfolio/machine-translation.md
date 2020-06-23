@@ -24,6 +24,10 @@ We trained on 133,317 Vietnamese-English pairs and 213,376 Chinese-English pairs
 
 We look to optimize machine translation on the following types of neural models, first using recurrent neural network based encoder decoder without attention, followed by recurrent neural network based encoder decoder with attention, and self-attention based encoder. 
 
+<p align="center">
+  <img width="485.5" height="381" src="/images/MTarch.png">
+</p>
+
 For our experiments, we used a hidden size of 256, running for 4 epochs, calculating validation score with every batch iteration. We used the AdaDelta optimizer. We use beam search with K = 5 (exclusive, without including 1-4), and also set the maximum generation length to be equal to the length of the input sentence. We also experimented with learning rates from 3e-4 to 1, with surprising results, shown in our ablation study of the attention decoder. As clarification, we only preformed the high learning rate on the Luong attention decoder model, not the self-attention encoder model. All other models had a learning rate of 0.01.
 
 We used negative loss likelihood for our train loss, only accounting for the loss with respect to nonPAD tokens in our reference sentence in the batching process. For all our models, we trimmed the length of sentences to be 30, and used sacrebleu’s raw corpus bleu function to calculate the validation and test accuracy. BLEU calculates the geometric mean of the precision of the predicted and reference sentences.
