@@ -1,5 +1,5 @@
 ---
-title: "Market Segmentation for Fashion Retailers"
+title: "Fashion Market Segmentation and Analysis with Trendalytics"
 date: 2019-12-17
 excerpt: "Market Segmentation for fashion retailers: validating trend adoption strategies.<br/><img src='/images/TrendalyticsScoreCard.png' style='width:395px;height:254px;'>"
 collection: portfolio
