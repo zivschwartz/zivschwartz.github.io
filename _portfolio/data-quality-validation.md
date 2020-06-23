@@ -1,7 +1,7 @@
 ---
 title: "Unsupervised Data Quality Monitoring"
-date: 2019-12-17
-excerpt: "Three approaches to determine batch acceptability.<br/><img src='/images/DQVcleandirty.png' style='width:395px;height:180px;'>"
+date: 2019-12-19
+excerpt: "Three approaches to determine batch acceptability.<br/><img src='/images/DQVcleandirty.png' style='width:395px;height:254px;'>"
 collection: portfolio
 ---
 
