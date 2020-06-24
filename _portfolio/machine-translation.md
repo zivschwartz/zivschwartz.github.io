@@ -14,7 +14,7 @@ Both sets of translations, Chinese to English and Vietnamese to English, were pr
 2. Recurrent neural network based encoder decoder with global attention 
 3. Self-attention based encoder. 
 
-Ultimately, we were unable to reproduce the results of the original papers with various experiments, although we were able to achieve a high BLEU score of 1.8 BLEU.
+Ultimately, we were able to achieve a high BLEU (bilingual evaluation understudy) score of 1.8.
 
 Report can be found [here](https://github.com/zivschwartz/Machine-Translation-Systems/blob/master/1011_Final_Report.pdf) and relevant code can be found [in this GitHub repo](https://github.com/zivschwartz/Machine-Translation-Systems).
 
