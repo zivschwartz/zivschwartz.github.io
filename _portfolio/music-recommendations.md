@@ -30,9 +30,9 @@ Given the size of the data, we decided to dig deeper into the particular model f
 </p>
 
 We train a baseline ALS model and three alternative model formulations:
-1. log compression
-2. drop counts ≤ 1 
-3. drop counts ≤ 2
+1. Log compression
+2. Drop counts ≤ 1 
+3. Drop counts ≤ 2
 
 Using RankingMetrics to yield the MAP of each our models, we evaluate on the top 500 track predictions for each user on the validation and test set. Out of the four ALS model formulations, the Log Compression alternative formulation slightly outperformed all other formulations on both data sets, with MAP values of 0.01418 and 0.01404, respectively.
 
