@@ -1,7 +1,7 @@
 ---
 title: "Natural Language Inference using Recurrent and Convolutional Neural Networks"
 date: 2018-10-30
-excerpt: "Constructing optimal recurrent and convolutional neural network models that can take on the Stanford Natural Language Inference ([SNLI](https://nlp.stanford.edu/projects/snli/)) task.<br/><img src='/images/NLIarch.png' style='width:355px;height:280px;'>"
+excerpt: "Constructing optimal recurrent and convolutional neural network models that can take on the Stanford Natural Language Inference ([SNLI](https://nlp.stanford.edu/projects/snli/)) task.<br/><img src='/images/NLIarch.png' style='width:355px;height:235px;'>"
 collection: portfolio
 ---
 
