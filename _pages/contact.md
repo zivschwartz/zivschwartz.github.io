@@ -8,5 +8,5 @@ author_profile: true
 You can reach me at a few places:
 
 - Email: zivschwartz [at] nyu [dot] edu
-- [LinkedIn](https://www.linkedin.com/in/zivschwartz/)
+- [LinkedIn](https://www.linkedin.com/in/ziv-schwartz/)
 - [Github](https://www.github.com/zivschwartz)
